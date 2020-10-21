@@ -1,0 +1,15 @@
+lista = ['oi#', '%abcde', 'rolo doido', 'remove isso', '', 1, 2.343424]
+
+#remover caracter q n quero na lista
+#convertendo tudo pra str
+#nova_lista = [i.strip('escrever oq quer remover aqui') if type(i)== str else str(i) for i in budget]
+nova_lista = [i.strip('# % remove isso ') if type(i)== str else str(i) for i in budget]
+
+print(nova_lista)
+['oi', 'abcde', 'rolo doido', '', '', '1', '2.343424']
+
+#remover whitespace
+no_whitespace = [i for i in nova_lista if i.strip()]
+
+print(no_whitespace)
+['oi', 'abcde', 'rolo doido', '1', '2.343424']
