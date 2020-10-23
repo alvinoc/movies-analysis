@@ -13,3 +13,12 @@ no_whitespace = [i for i in nova_lista if i.strip()]
 
 print(no_whitespace)
 ['oi', 'abcde', 'rolo doido', '1', '2.343424']
+
+
+**Filtrando colunas a partir de uma determinada string** 
+* Usa-se o metodo str.contains('nome q deseja filtrar')
+* ele retorna a string desejada em qualquer posicao
+* o argumento case=False é tirar o case sensitive
+
+usa_and_others = movies_data[movies_data['country'].str.contains('USA',case=False)==True]
+usa_and_others.head()
