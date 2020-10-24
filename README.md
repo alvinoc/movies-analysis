@@ -1,4 +1,4 @@
-# movies analysis
+# Movies analysis
 
 [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 
@@ -10,7 +10,7 @@
 * Some insights were created through basics data analysis and data visualization (Jr level)
 
 ### Made by: 
-|name|github page|
+|Name|Github page|
 | -------- | -------- |
 |Victor Saad|https://github.com/victorsaad00|
 |Claro Alvino|https://github.com/alvinoc|
