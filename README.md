@@ -9,6 +9,6 @@
 |name|github page|
 | -------- | -------- |
 |Victor Saad|https://github.com/victorsaad00|
-|Claro Alvino|github.com/alvinoc|
+|Claro Alvino|https://github.com/alvinoc|
 |Iago Filipe|https://github.com/ifest1|
 |Alexandre Maranhão |404 not found|
