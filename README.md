@@ -15,4 +15,4 @@
 |Victor Saad|https://github.com/victorsaad00|
 |Claro Alvino|https://github.com/alvinoc|
 |Iago Filipe|https://github.com/ifest1|
-|Alexandre Maranhão |404 not found|
+|Alexandre Maranhão |https://github.com/amaranhao|
