@@ -9,10 +9,4 @@
 * Movies analysis for the project of the third/3rd UFRPE Information Systems' semester
 * Some insights were created through basics data analysis and data visualization (Jr level)
 
-### Made by: 
-|Name|Github page|
-| -------- | -------- |
-|Victor Saad|https://github.com/victorsaad00|
-|Claro Alvino|https://github.com/alvinoc|
-|Iago Filipe|https://github.com/ifest1|
-|Alexandre Maranhão |https://github.com/amaranhao|
+
