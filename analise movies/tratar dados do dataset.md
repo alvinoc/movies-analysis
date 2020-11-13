@@ -16,6 +16,7 @@ print(no_whitespace)
 
 
 **Filtrando colunas a partir de uma determinada string** 
+
 * Usa-se o metodo str.contains('nome q deseja filtrar')
 * ele retorna a string desejada em qualquer posicao
 * o argumento case=False é tirar o case sensitive
@@ -24,6 +25,7 @@ usa_and_others = movies_data[movies_data['country'].str.contains('USA',case=Fals
 usa_and_others.head()
 
 **atualizando colunas com valores errados**
+
 #seleciona as linhas com idade negativa
 dataframe.loc[base['age']<0]
 
