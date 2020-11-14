@@ -52,4 +52,6 @@ df.fillna(df.loc[column != 'NaN', 'column'].mean(), inplace=True)
 
 
 #categorical value
+
+
 df = df.fillna({"Column": "Value"})
