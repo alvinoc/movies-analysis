@@ -54,3 +54,8 @@ df.fillna(df.loc[column != 'NaN', 'column'].mean(), inplace=True)
 #categorical value
 
 df = df.fillna({"Column": "Value"})
+
+#another method
+
+values = {'Column1': Value1, 'Column2': Value2, 'Column3': Value3, 'Column4': Value4}
+df.fillna(value=values)
