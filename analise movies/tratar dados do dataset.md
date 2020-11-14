@@ -47,3 +47,9 @@ dataframe.loc[base['age']<0,'age'] = 40
 **preenchendo NaN values**
 
 df.fillna(df.loc[column != 'NaN', 'column'].mean(), inplace=True)
+
+**Preenchendo colunas NaN com determinado valor usando dic**
+
+
+#categorical value
+df = df.fillna({"Column": "Value"})
