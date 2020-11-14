@@ -44,7 +44,7 @@ dataframe.loc[base['age']>0].mean()
 
 dataframe.loc[base['age']<0,'age'] = 40
 
-**preenchendo NaN values**
+**preenchendo NaN values com a media das colunas sem NaN**
 
 df.fillna(df.loc[column != 'NaN', 'column'].mean(), inplace=True)
 
@@ -60,3 +60,9 @@ df = df.fillna({"Column": "Value"})
 values = {'Column1': Value1, 'Column2': Value2, 'Column3': Value3, 'Column4': Value4}
 
 df.fillna(value=values)
+
+**Categorical to numerical variables(One hot encoder)**
+
+#para cada valor categorico, cria uma coluna no dataframe com o nome do valor (com o prefixo passado no parametro Prefix)
+
+pd.get_dummies(dataframe, columns=["body_style", "drive_wheels"], prefix=["body", "drive"])
