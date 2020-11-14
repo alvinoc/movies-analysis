@@ -63,6 +63,6 @@ df.fillna(value=values)
 
 **Categorical to numerical variables(One hot encoder)**
 
-#para cada valor categorico, cria uma coluna no dataframe com o nome do valor (com o prefixo passado no parametro Prefix)
+#para cada valor categorico, cria uma coluna no dataframe, com o valor dummy (0 or 1), com o nome do valor (com o prefixo passado no parametro Prefix)
 
 pd.get_dummies(dataframe, columns=["body_style", "drive_wheels"], prefix=["body", "drive"])
