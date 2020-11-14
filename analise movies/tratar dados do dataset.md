@@ -26,6 +26,8 @@ print(no_whitespace)
 
 
 usa_and_others = movies_data[movies_data['country'].str.contains('USA',case=False)==True]
+
+
 usa_and_others.head()
 
 **atualizando colunas com valores errados**
@@ -41,3 +43,7 @@ dataframe.loc[base['age']>0].mean()
 #atribui às idades negativas a media das idades
 
 dataframe.loc[base['age']<0,'age'] = 40
+
+**preenchendo NaN values**
+
+df.fillna(df.loc[column != 'NaN', 'column'].mean(), inplace=True)
